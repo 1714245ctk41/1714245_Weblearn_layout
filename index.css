@@ -161,22 +161,24 @@
 }
 
 p .find_nav{
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	background:#222222;
 	width:150px;
 	color:#ffffff;
 	border:0px;
-	font-size:12px;
-	padding: 15px 17px;
+	font-size:15px;
+	padding: 10px 15px;
 }
 .find_nav:focus{
 	outline:none;
 }
-.nav_content p i{
-	color:rgb(169, 169, 169);
+.nav_content .finput i{
+	color:#ffffff;
 	cursor:pointer;
 	height:30px;
-	padding-right:5px;
+	padding-right:10px;
+	padding-left:5px;
+	padding-top:5px;
 }
 .nav_menu{
 	margin-top:70px;
