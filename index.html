@@ -16,31 +16,33 @@
 		<div class="bar">
 			<p class="bar_child" id="bar_child"></p>
 			<button type="text" class="button_nav" onclick="myFunction()"><p id="button_change1"></p>
-			<i id="button_change" class="fas fa-angle-double-right"></i>
+
 			</button>
 			<p class="bottom_mess">All rights Reserved 	&copy; 2018</p>
 <script>
 	function myFunction(){
 		x=document.getElementById("nav_content");
 		y=document.getElementById("button_change1");
-		z=document.getElementById("button_change");
 		t=document.getElementById("bar_child");
 		e=document.getElementById("wrap-bar");
 		if(x.style.width==="290px")
 			{
 				x.style.width="0px";
 				y.style.display="block";
-				z.style.display="none";
 				t.style.height="63px";
 				e.style.height="0px";
+				y.style.border="5px solid rgb(169, 169, 169)";
+				y.style.boxShadow="0 0 0px transparent";
+				y.style.background="transparent	";
 			}
 		else
 			{
 				x.style.width="290px";
-				y.style.display="none";
-				z.style.display="block";
 				t.style.height="0px";
 				e.style.height="63px";
+				y.style.border="5px solid #FEFEFE";
+				y.style.boxShadow="0 0 20px #fff";
+				y.style.background="#000000";
 			}
 	}
 </script>
