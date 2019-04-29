@@ -669,121 +669,25 @@ text-align:center;
 /*	animation-play-state:paused;
 	-webkit-animation-play-state:paused;*/
 }
-@-webkit-keyframes line-1 {
-	from { width:0; }
-	to { width:80%; }
-}
-@-o-keyframes line-1 {
-	from {width:0;  }
-	to { width:80%; }
-}
-@-moz-keyframes line-1 {
-	from {width:0;  }
-	to { width:80%; }
-}
-@keyframes line-1 {
-	from {width:0;  }
-	to { width:80%; }
-}
+
 .line2{
 	width:60%;
-	animation:line-2 1s linear ;
 }
-@-webkit-keyframes line-2 {
-	from { width:0; }
-	to { width:60%; }
-}
-@-o-keyframes line-2 {
-	from {width:0;  }
-	to { width:60%; }
-}
-@-moz-keyframes line-2 {
-	from {width:0;  }
-	to { width:60%; }
-}
-@keyframes line-2 {
-	from {width:0;  }
-	to { width:60%; }
-}
+
 .line3{
 	width:75%;
-	animation:line-3 1s linear ;
 }
-@-webkit-keyframes line-3 {
-	from { width:0; }
-	to { width:75%; }
-}
-@-o-keyframes line-3 {
-	from {width:0;  }
-	to { width:75%; }
-}
-@-moz-keyframes line-3 {
-	from {width:0;  }
-	to { width:75%; }
-}
-@keyframes line-3 {
-	from {width:0;  }
-	to { width:75%; }
-}
+
 .line4{
 	width:80%;
-	animation:line-4 1s linear ;
 }
-@-webkit-keyframes line-4 {
-	from { width:0; }
-	to { width:80%; }
-}
-@-o-keyframes line-4 {
-	from {width:0;  }
-	to { width:80%; }
-}
-@-moz-keyframes line-4 {
-	from {width:0;  }
-	to { width:80%; }
-}
-@keyframes line-4 {
-	from {width:0;  }
-	to { width:80%; }
-}
+
 .line5{
 	width:60%;
-	animation:line-5 1s linear ;
 }
-@-webkit-keyframes line-5 {
-	from { width:0; }
-	to { width:60%; }
-}
-@-o-keyframes line-5 {
-	from {width:0;  }
-	to { width:60%; }
-}
-@-moz-keyframes line-5 {
-	from {width:0;  }
-	to { width:60%; }
-}
-@keyframes line-5 {
-	from {width:0;  }
-	to { width:60%; }
-}
+
 .line6{
 	width:60%;
-	animation:line-6 1s linear ;
-}
-@-webkit-keyframes line-6 {
-	from { width:0; }
-	to { width:60%; }
-}
-@-o-keyframes line-6 {
-	from {width:0;  }
-	to { width:60%; }
-}
-@-moz-keyframes line-6 {
-	from {width:0;  }
-	to { width:60%; }
-}
-@keyframes line-6 {
-	from {width:0;  }
-	to { width:60%; }
 }
 .subscribe{
 	width:1052px;
