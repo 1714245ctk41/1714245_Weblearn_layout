@@ -245,9 +245,7 @@ p .find_nav{
 	height:250px;
 	margin-bottom:5%;
 }
-.header-top_content1:hover{
-	width:600px;
-}
+
 .header-top_content2{
 	background:url(bg_new/bg3.jpg);
 		background-size:100% 100%;
@@ -255,18 +253,14 @@ p .find_nav{
 	height:350px;
 	margin-bottom:1%;
 }
-.header-top_content2:hover{
-	width:600px;
-}
+
 .header-top_content3{
 	background:url("bg_new/bg1.jpg");
 		background-size:100% 100%;
 	width:100px;
 	height:393px;
 }
-.header-top_content3:hover{
-	width:600px;
-}
+
 
 .header-top_content4{
 	background: url("bg_new/bg4.jpg");
@@ -275,18 +269,14 @@ p .find_nav{
 	height:300px;
 	margin-bottom:3.2%;
 }
-.header-top_content4:hover{
-	width:600px;
-}
+
 .header-top_content5{
 	background:url("bg_new/bg5.jpg");
 	background-size:100% 100%;
 	width:100px;
 	height:393px;
 }
-.header-top_content5:hover{
-	width:600px;
-}
+
 .header-top_content6{
 	background:url("bg_new/bg6.jpg");
 	background-size:100% 100%;
@@ -294,9 +284,24 @@ p .find_nav{
 	height:200px;
 	margin-bottom:7%;
 }
-.header-top_content6:hover{
-	width:600px;
+
+.header-top_content7{
+	background:url("bg_new/bg7.jpg");
+	background-size:100% 100%;
+	width:100px;
+	height:300px;
+	margin-bottom:3.2%;
 }
+.header-top_content1:hover,
+.header-top_content2:hover,
+.header-top_content3:hover,
+.header-top_content4:hover,
+.header-top_content5:hover,
+.header-top_content6:hover,
+.header-top_content7:hover{
+	width:400px;
+}
+
 .button_1{
 	position:relative;
 }
@@ -308,11 +313,10 @@ p .find_nav{
 
 }
 .header-bottom div{
-	position:absolute;
+
 	width:60%;
 	height:30%;
-	top:160px;
-	left:270px;
+	margin:160px auto 0px;
 	text-align:center;
 	font-family:"Arial";
 }
@@ -370,6 +374,7 @@ p .find_nav{
 	grid-template-rows:380px;
 	grid-column-gap:10px;
 	padding:0px;
+	text-align:center;
 }
 
 .coffee img{
@@ -484,14 +489,14 @@ text-align:center;
 	left:0;
 	box-shadow: 2px 2px 2px #cecece;
 	height:210px;
-	width:622px;
+	width:49%;
 	border:1px solid #ededed;
 	padding:50px 70px 55px 0;
 }
 .design .design-box2{
 	position:absolute;
 	height:210px;
-	width:622px;
+	width:49%;
 	bottom:0px;
 	right:0;
 	background:#444444;
