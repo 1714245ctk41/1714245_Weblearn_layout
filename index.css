@@ -222,66 +222,90 @@ p .find_nav{
 .header-top{
 	width:1270px;
 	height:393px;
-	background:url("bg/bg2.jpg") no-repeat right top;
+	background:transparent;
 	background-size:100% 100%;
 	position:relative;
+	text-align:center;
+	padding: 0;
+}
+.header-top_content{
+	display:inline-block;
+	margin:0;
+	margin-left:30px;
+	border-radius:40px;
+	transition:all 0.285s linear;
+}
+.header-top_content:first-child{
+	margin-left:0px;
+}
+.header-top_content1{
+	background: url(bg_new/bg2.jpg);
+		background-size:100% 100%;
+	width:100px;
+	height:250px;
+	margin-bottom:5%;
+}
+.header-top_content1:hover{
+	width:600px;
+}
+.header-top_content2{
+	background:url(bg_new/bg3.jpg);
+		background-size:100% 100%;
+	width:100px;
+	height:350px;
+	margin-bottom:1%;
+}
+.header-top_content2:hover{
+	width:600px;
+}
+.header-top_content3{
+	background:url("bg_new/bg1.jpg");
+		background-size:100% 100%;
+	width:100px;
+	height:393px;
+}
+.header-top_content3:hover{
+	width:600px;
 }
 
-.header-top_content{
-	position:absolute;
-	left:320px;
-	top:20px;
-	width:480px;
+.header-top_content4{
+	background: url("bg_new/bg4.jpg");
+		background-size:100% 100%;
+	width:100px;
+	height:300px;
+	margin-bottom:3.2%;
 }
-.header-top_content h1{
-	font-size:80px;
-	margin-bottom:20px;
+.header-top_content4:hover{
+	width:600px;
+}
+.header-top_content5{
+	background:url("bg_new/bg5.jpg");
+	background-size:100% 100%;
+	width:100px;
+	height:393px;
+}
+.header-top_content5:hover{
+	width:600px;
+}
+.header-top_content6{
+	background:url("bg_new/bg6.jpg");
+	background-size:100% 100%;
+	width:100px;
+	height:200px;
+	margin-bottom:7%;
+}
+.header-top_content6:hover{
+	width:600px;
 }
 .button_1{
 	position:relative;
 }
-.header-top_content  button{
-	position:absolute;
 
-	margin-top:20px;
-	width:175px;
-	height:37px;
-	padding:9px 22px;
-	border:2px solid #FFE4B5;
-	background:#FFDEAD;
-	transition:all 0.285s ease-in;
-	color:#CD853F;
-	cursor:pointer;
-	font-size:15px;
-	font-weight:700;
-	box-shadow: 0px 0px 1px #976642;
-}
-.header-top_content button:hover>#button_head{
-	background:#976642;
-}
-.header-top_content button:hover{
-	
-	color:#976642;
-}
-.header-top_content #button_head{
-	overflow:hidden;
-	position:absolute;
-	display:inline-block;
-	font-size:17px;
-	left:-2.8px;
-	bottom:-3px;
-	width:175.5px;
-	height:3px;
-	padding: 0;
-	border: 0;
-	background:transparent;
-	transition:background 0.285s ease-out;
-
-}
 .header-bottom{
 	width:100%;
 	height:535px;
 	position:relative;
+
 }
 .header-bottom div{
 	position:absolute;
