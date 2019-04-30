@@ -95,7 +95,6 @@
 		.button_nav p:before{
 			width:40px;
 			height:40px;
-			border:5px solid red;
 			position:absolute;
 			top: 0;
 			left: 0;
@@ -220,21 +219,25 @@ p .find_nav{
 	overflow:hidden;
 }
 .header-top{
-	width:1270px;
+	width:100%;
 	height:393px;
 	background:transparent;
 	background-size:100% 100%;
 	position:relative;
 	text-align:center;
 	padding: 0;
+	margin-top:50px;
+
 }
 .header-top_content{
 	display:inline-block;
 	margin:0;
-	margin-left:30px;
+	margin-left:2%;
 	border-radius:40px;
 	transition:all 0.285s linear;
+
 }
+
 .header-top_content:first-child{
 	margin-left:0px;
 }
@@ -244,6 +247,7 @@ p .find_nav{
 	width:100px;
 	height:250px;
 	margin-bottom:5%;
+
 }
 
 .header-top_content2{
@@ -268,6 +272,7 @@ p .find_nav{
 	width:100px;
 	height:300px;
 	margin-bottom:3.2%;
+
 }
 
 .header-top_content5{
@@ -275,6 +280,7 @@ p .find_nav{
 	background-size:100% 100%;
 	width:100px;
 	height:393px;
+
 }
 
 .header-top_content6{
@@ -291,6 +297,7 @@ p .find_nav{
 	width:100px;
 	height:300px;
 	margin-bottom:3.2%;
+
 }
 .header-top_content1:hover,
 .header-top_content2:hover,
@@ -299,7 +306,7 @@ p .find_nav{
 .header-top_content5:hover,
 .header-top_content6:hover,
 .header-top_content7:hover{
-	width:400px;
+	width:35%;
 }
 
 .button_1{
@@ -368,17 +375,17 @@ p .find_nav{
 	margin: -10px;
 }
 .coffee{
-	width:100%;
+	width:1272px;
 	display:grid;
 	grid-template-columns:246px 246px 246px 246px 246px;
 	grid-template-rows:380px;
 	grid-column-gap:10px;
 	padding:0px;
-	text-align:center;
+	margin:0px auto;
 }
 
 .coffee img{
-	width:246px;
+	width:800px;
 	height:380px;
 }
 .coffee_grid{
@@ -422,7 +429,7 @@ p .find_nav{
 	opacity:0.7;
 }
 .slideshow_container{
-	width:600px;
+	width:800px;
 	margin:10px auto;
 	position:relative;
 	height:250px;
@@ -430,6 +437,7 @@ p .find_nav{
 	margin-top:130px;
 	margin-bottom:170px;
 	overflow:hidden;
+
 }
 .myslides{
 	display:block;
@@ -457,9 +465,10 @@ p .find_nav{
 	to { opacity:1; }
 }*/
 .myslides img{
-	width:600px;
+	width:800px;
 	height:250px;
 	vertical-align:middle;
+
 }
 .caption-slide{
 	color:#fff;
