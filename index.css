@@ -12,14 +12,24 @@
 	font-style: normal;
 	font-weight: normal;
 }
+@font-face {
+	font-family: 'poppinbold';
 
+	src: url('fonts/poppin/Poppins-Bold.eot');
+	src: url('fonts/poppin/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/poppin/Poppins-Bold.woff') format('woff'),
+		 url('fonts/poppin/Poppins-Bold.ttf') format('truetype'),
+		 url('fonts/poppin/Poppins-Bold.svg#quicksandbold') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
 		body, html{
 			background:#ffffff;
 			width:100%;
 			height:100%;
 			-webkit-font-smoothing: antialiased;
 			-moz-font-smoothing: antialiased;
-			font-family: "poppin";
+			font-family: "poppin" !important;
 			
 		}
 		.nav{
@@ -168,7 +178,7 @@ p .find_nav{
 	color:#ffffff;
 	border:0px;
 	font-size:15px;
-	padding: 10px 15px;
+	padding: 10px 0px 10px 10px;
 }
 .find_nav:focus{
 	outline:none;
@@ -227,6 +237,7 @@ p .find_nav{
 	text-align:center;
 	padding: 0;
 	margin-top:50px;
+	margin-bottom:50px;
 
 }
 .header-top_content{
@@ -314,27 +325,30 @@ p .find_nav{
 }
 
 .header-bottom{
+
 	width:100%;
 	height:535px;
 	position:relative;
-
+	background:url("bg/bg1.jpg");
+	background-size:100% 100%;
+	padding-top:110px;
 }
 .header-bottom div{
-
-	width:60%;
+	width:70%;
 	height:30%;
-	margin:160px auto 0px;
+	margin:0px auto 0px;
 	text-align:center;
-	font-family:"Arial";
 }
 .header-bottom h1{
-
+	font-family:"poppinbold";
 	font-size:30px;
 	font-weight: 700;
 	text-shadow: 0px 1px #000;
 	letter-spacing:1px;
+	text-align:center;
 }
 .header-bottom p{
+	text-align:center;
 	margin-top:117px;
 	color:#afafaf;
 	letter-spacing:1px;
@@ -640,6 +654,8 @@ text-align:center;
 }
 .grid_2 p{
 	font-size:13px;
+	line-height: 13px;
+	margin-top:10px;
 }
 
 .graph{
@@ -674,7 +690,7 @@ text-align:center;
 }
 .line_range{
 	display:block;
-	width:0px;
+
 	height:3px;
 }
 .line1{
