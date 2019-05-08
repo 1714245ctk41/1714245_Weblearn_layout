@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>	
+		*{
+			padding: 0;	
+			margin: 0;	
+		}
+		.line-slide{
+			position:absolute;
+			top:40%;
+			right:10px;
+			width:50px;
+			height:50px;
+
+
+		}
+		.line{
+			height:2px;
+			padding:1px;
+			width:50px;
+			background-color:red;
+			transition:width 1s ease;
+			user-select:none;
+			margin-top:5px;
+			display:line-block;
+			cursor:pointer;
+			overflow:auto;
+				float:right;
+
+		}
+		.header-top{
+			max-width:90%;
+			max-height:500px;
+			position:relative;
+			margin:0px auto;
+			max-height:500px;
+			float:right;
+			
+			overflow:hidden;
+		}
+		img{
+			width:100%;
+			height:500px;
+			overflow:hidden;
+		}
+		.header-top_content{
+			transition:width 1s linear;
+			display:inline-block;
+		}
+
+		.active{
+			width:100px;
+		}
+
+	</style>
+</head>
+<body>
+		<div class="header-top">
+			<div class="header-top_content header-top_content7">
+				<img src="bg_new/bg7.jpg" alt="">
+			</div>
+			<div class="header-top_content header-top_content6">
+				<img src="bg_new/bg6.jpg" alt="">
+			</div>
+			<div class="header-top_content header-top_content5">
+				<img src="bg_new/bg5.jpg" alt="">
+			</div>
+			<div class="header-top_content header-top_content1">
+				<img src="bg_new/bg1.jpg" alt="">
+			</div>
+			<div class="header-top_content header-top_content2">
+				<img src="bg_new/bg2.jpg" alt="">
+			</div>
+			<div class="header-top_content header-top_content3">
+				<img src="bg_new/bg3.jpg" alt="">
+			</div>
+			<div class="header-top_content header-top_content4">
+				<img src="bg_new/bg4.jpg" alt="">
+			</div>
+		<div class="line-slide">	
+			<span class="line" onclick="currentSlide(1)">
+				
+			</span>
+			<span class="line" onclick="currentSlide(2)">
+				
+			</span>
+			<span class="line" onclick="currentSlide(3)">
+				
+			</span>
+			<span class="line" onclick="currentSlide(4)">
+				
+			</span>
+			<span class="line" onclick="currentSlide(5)">
+				
+			</span>
+			<span class="line" onclick="currentSlide(6)">
+				
+			</span>
+			<span class="line" onclick="currentSlide(7)">
+				
+			</span>
+		</div>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("header-top_content");
+  var dots = document.getElementsByClassName("line");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.width = "0px";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.width = "500px";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
