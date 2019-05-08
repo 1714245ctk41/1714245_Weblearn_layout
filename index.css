@@ -309,6 +309,9 @@ p .find_nav{
 	border:1px solid #e5e9f2;
 	padding:16px 45px 17px 38px;
 }
+.feature_child:hover{
+	box-shadow: 0px 0px 2px #222222;
+}
 .feature_child a{
 	display:inline-block;
 	cursor:pointer;
@@ -710,6 +713,7 @@ text-align:center;
 	height:100%;
 	float:left;
 	position:relative;
+
 }
 .subscribe_content input{
 	border:0px;
@@ -721,29 +725,54 @@ text-align:center;
 .subscribe_content input:focus{
 	outline:none;
 }
-.subscribe_content input:focus~span{
-	width:200px;
+.subscribe_content input:focus~.sin{
+	transform:scale(1);
 }
-.subscribe_content span{
-	width:0px;
+.subscribe_content .sin{
+	width:200px;
+	
 	height:1px;
 	background:#FF3300;
 	position:absolute;
 	bottom: -8px;left: 0;
-	transition:width 0.285s ease-out;
+	transition:all 0.285s ease-out;
+	transform:scale(0);
 }
 .subscribe_content button{
-	padding:15px 30px;
-	background:#000000;
+	padding:14.5px 29.5px;
+	background:red;
 	color:white;
 	font-weight:700;
-	margin-top: -8px;
+	margin-top: -1.5px;
 	cursor:pointer;
-	border:none;
+	border:1px solid red;
+	transform:scale(0);
+	transition:all 0.2s linear;
 }
 .subscribe_content button:focus{
 	outline:none;
 }
+.sb{
+	display:inline-block;
+	position:relative;
+	width: 157px;
+	height: 45px;
+	margin-top: -8px;
+	background:#000000;
+	color:white;
+	font-weight:600;
+}
+.sb:hover button{
+	transform:scale(1);
+}
+.sb span{
+	font-size:14px;
+	position:absolute;
+	top: 30%;
+	left: 20%;
+}
+
+
 .footer{
 	width:1052px;
 	height:235px;
